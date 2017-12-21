@@ -29,12 +29,12 @@ Twitter Cards and Open Graph
 ### The example below uses a mix of Twitter and Open Graph tags to define a summary card:
 ```
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@nytimesbits" />
-<meta name="twitter:creator" content="@nickbilton" />
-<meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
-<meta property="og:title" content="A Twitter for My Sister" />
+<meta name="twitter:site" content="@BlueHelixDesign" />
+<meta name="twitter:creator" content="@bluehelixdesign" />
+<meta property="og:url" content="http://bluehelixdesign.com/Your_URL" />
+<meta property="og:title" content="Title of Post" />
 <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
-<meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
+<meta property="og:image" content="http://bluhelixdesign.com/example" />
 ```
 ____________________________
 ## This is where you would make your changes:
