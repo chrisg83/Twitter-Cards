@@ -42,9 +42,14 @@ ____________________________
 There are a number of different options for Twitter Cards Like Large Image or Small Image.  You can change those options in the section below:
 
 ### For Example 
-<meta name="twitter:card" value="summary" />
-COuld Also be 
-
+'''
+<meta name="twitter:card" value="summary">
+'''
+Could Also be:
+'''
+<meta name="twitter:card" content="summary_large_image">
+'''
+'''
 #twitter cards
     if(is_single() || is_page()) {
     $twitter_url    = get_permalink();
@@ -71,3 +76,5 @@ COuld Also be
   }
 }
 ?>
+'''
+
