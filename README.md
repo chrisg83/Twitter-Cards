@@ -27,7 +27,7 @@ Twitter Cards and Open Graph
 ## Below is a Good Example From Twitter:
 
 ### The example below uses a mix of Twitter and Open Graph tags to define a summary card:
-'''
+```
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@nytimesbits" />
 <meta name="twitter:creator" content="@nickbilton" />
@@ -35,21 +35,25 @@ Twitter Cards and Open Graph
 <meta property="og:title" content="A Twitter for My Sister" />
 <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
 <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
-'''
+```
 ____________________________
 ## This is where you would make your changes:
 
 There are a number of different options for Twitter Cards Like Large Image or Small Image.  You can change those options in the section below:
 
 ### For Example 
-'''
+
+```
 <meta name="twitter:card" value="summary">
-'''
+```
+
 Could Also be:
-'''
+
+```
 <meta name="twitter:card" content="summary_large_image">
-'''
-'''
+```
+
+```
 #twitter cards
     if(is_single() || is_page()) {
     $twitter_url    = get_permalink();
@@ -76,5 +80,4 @@ Could Also be:
   }
 }
 ?>
-'''
-
+```
