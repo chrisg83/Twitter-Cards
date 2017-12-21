@@ -1,16 +1,14 @@
 # Twitter-Cards
 How To Make Twitter Pull Twitter Cards Correctly
 
-Why Teitter is So Agaistn Useing Open Graph We Will Never Know. But Here is  Sinple Work Around I coded.
-
-It's just a simple function call that allows you to put in the correct call names for whatever options you want.
+This is just a simple function call that allows you to put in the correct call names for whatever options you want.
 **Note only a few of them are required to work.  **
 
 Open you Header.php for the theme, should really be a sub-theme in most cases. 
 
 Then Copy and past the attached php code just above the line: "<?php wp_head(); ?>"
 
-**Note: Yours may be coded a litt;e differetn but you will be importing the WP-head in some form. 
+* Note: Yours may be coded a litt;e differetn but you will be importing the WP-head in some form. *
 
 Make Sure you Copy The Entire PHP code, including thr opening and closing tags. 
 
