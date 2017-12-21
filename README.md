@@ -24,9 +24,10 @@ __________
 Twitter Cards and Open Graph
 "Twitter card tags look similar to Open Graph tags, and are based on the same conventions as the Open Graph protocol. When using Open Graph protocol to describe data on a page, it is easy to generate a Twitter card without duplicating tags and data. When the Twitter card processor looks for tags on a page, it first checks for the Twitter-specific property, and if not present, falls back to the supported Open Graph property. This allows for both to be defined on the page independently, and minimizes the amount of duplicate markup required to describe content and experience." - Twitter Dev (https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 
-Below is a Good Example From Twitter:
+## Below is a Good Example From Twitter:
 
-# The example below uses a mix of Twitter and Open Graph tags to define a summary card:
+### The example below uses a mix of Twitter and Open Graph tags to define a summary card:
+'''
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@nytimesbits" />
 <meta name="twitter:creator" content="@nickbilton" />
@@ -34,14 +35,13 @@ Below is a Good Example From Twitter:
 <meta property="og:title" content="A Twitter for My Sister" />
 <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
 <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
-
-
+'''
 ____________________________
-# This is where you would make your changes:
+## This is where you would make your changes:
 
 There are a number of different options for Twitter Cards Like Large Image or Small Image.  You can change those options in the section below:
 
-## For Example 
+### For Example 
 <meta name="twitter:card" value="summary" />
 COuld Also be 
 
