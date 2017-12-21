@@ -4,7 +4,8 @@ How To Make Twitter Pull Twitter Cards Correctly
 This is just a simple function call that allows you to put in the correct call names for whatever options you want.
 **Note only a few of them are required to work.  **
 
-Open you Header.php for the theme, should really be a sub-theme in most cases. 
+Open you Header.php for the theme/sub-theme, 
+*Remember This should really be a sub-theme in most cases so its not removed with your next update.* 
 
 Then Copy and past the attached php code just above the line: "<?php wp_head(); ?>"
 
