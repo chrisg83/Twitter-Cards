@@ -9,7 +9,7 @@ Open you Header.php for the theme/sub-theme,
 
 Then Copy and past the attached php code just above the line: "<?php wp_head(); ?>"
 
-* Note: Yours may be coded a litt;e differetn but you will be importing the WP-head in some form. *
+* Note: Yours may be coded a little different but you will be importing the WP-head in some form. *
 
 Make Sure you Copy The Entire PHP code, including thr opening and closing tags. 
 
