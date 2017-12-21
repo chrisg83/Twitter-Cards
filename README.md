@@ -47,11 +47,12 @@ There are a number of different options for Twitter Cards Like Large Image or Sm
 <meta name="twitter:card" value="summary">
 ```
 
-Could Also be:
+*Could Also be:*
 
 ```
 <meta name="twitter:card" content="summary_large_image">
 ```
+You will find this in the lower section of the import code as shown below:
 
 ```
 #twitter cards
